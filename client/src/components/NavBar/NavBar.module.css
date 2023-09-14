@@ -1,0 +1,39 @@
+  .container {
+    background-image: url("../../assets/backgrounds/player.gif");
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .searchbar {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+  }
+  
+  .buttonLink {
+    border-radius: 8px;
+    padding: 6px;
+    margin: 2px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: bold;
+  }
+  .buttonLink:hover {
+    background-color:#5c5ae8;;
+    color:white
+  }
+  
+  .select {
+    border-radius: 8px;
+    margin: 0 2px;
+    padding: 6px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: bold;
+  }
+  

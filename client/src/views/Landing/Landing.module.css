@@ -1,0 +1,36 @@
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../../assets/backgrounds/player.gif");
+    background-position: center;
+    background-size: 100% 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.landing a {
+    text-decoration: none;
+}
+
+.button {
+  font-family:  'Silkscreen', cursive;
+  padding: 1rem;
+  font-size: 5vw;
+  transition: all 400ms ease;
+  background-color: rgba(171, 16, 185, 0.945);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  -webkit-box-shadow: 15px 17px 29px 0px rgba(65, 54, 54, 0.77);
+  -moz-box-shadow: 15px 17px 29px 0px rgba(0,0,0,0.77);
+  box-shadow: 15px 17px 29px 0px rgba(0,0,0,0.77);
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: .4s;
+    color: blue
+  }

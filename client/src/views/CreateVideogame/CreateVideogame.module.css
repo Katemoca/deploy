@@ -1,0 +1,192 @@
+.buttonGoBack {
+  cursor: pointer;
+  background: rgb(166, 29, 224);
+  border-radius: 40px;
+  border: 2px solid #ffffff;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 1px;
+  margin:  0 auto 1rem;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+  
+.buttonGoBack:hover {
+    cursor: pointer;
+    background: rgb(224, 29, 136);
+}
+
+Link a{
+    text-decoration: none;
+}
+  
+.create {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-screen-bg {
+    width: 100%;
+    height: 100%; 
+    z-index: -1;
+    background-image: url("../../assets/backgrounds/desktop-wallpaper-neon-80s-retro-sun-art-page-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    font-family: 'Silkscreen', cursive;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    background-color: rgba(202, 81, 180, 0.541);
+    border-radius: 40px;
+    text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-style: normal;
+  background-color: rgba(75, 22, 59, 0.913);
+  max-width: 55rem; /* Set a maximum width */
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 25px;
+  justify-content: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+.form input  {
+  margin-bottom: 1rem;
+  width: 97%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.inputs {
+  border-radius: 15px;
+  border-color: #910cf0;
+}
+
+.patforms {
+    margin: 20px auto;
+    width: 250px;
+    height: 70px;
+    border-radius: 25px;
+    border: none;
+    border-width: 5px 5px 5px 5px;
+    
+}
+
+.buttonPlatforms {
+  background-color: #910cf0;
+  border-radius: 40px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  height: 28px;
+  width: 120px;
+  color:white;
+  font-family: 'Roboto Mono', monospace ;
+}
+
+.rating_text_cont {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+  font-weight: bolder;
+}
+
+
+.submitbutton {
+  cursor: pointer;
+  background: rgb(166, 29, 224);
+  border-radius: 40px;
+  border: 2px solid #ffffff;
+  padding: 10px 30px;
+  color: #fff;
+  margin: 1rem auto; 
+  border-radius: 7px;
+  width: 100%; 
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bolder;
+}
+
+.submitbutton:hover {
+cursor: pointer;
+background: rgb(224, 29, 136);
+}
+
+.submitbutton:disabled {
+  background-color: #ccc; 
+  cursor: not-allowed;
+}
+
+.error {
+  color: rgb(255, 0, 247);
+  font-size: 12px;
+  font-weight: 600;
+}
+.error_cont {
+  margin: 1px
+}
+
+
+@media (max-width: 768px) {
+  .form {
+    width: 80%; 
+    padding: 20px; 
+  }
+  .full-screen-bg {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("../../assets/backgrounds/desktop-wallpaper-neon-80s-retro-sun-art-page-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .buttonGoBack {
+    width: 150px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .form {
+    width: 80%;
+    padding: 20px;
+  }
+  .full-screen-bg {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("../../assets/backgrounds/desktop-wallpaper-neon-80s-retro-sun-art-page-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+
+
+  
+
+

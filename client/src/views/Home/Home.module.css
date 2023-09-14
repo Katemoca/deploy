@@ -1,0 +1,42 @@
+.homecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        295deg,
+        hsl(309, 100%, 53%) 0%,
+        hsl(282, 98%, 44%) 25%,
+        hsla(340, 78%, 53%, 0.447) 50%,
+        hsl(342, 57%, 51%) 75%,
+        hsl(281, 100%, 29%) 100%
+  );
+    font-family: 'Roboto Mono', monospace;
+}
+.homecontainer button option{
+    font-family: 'Barlow Semi Condensed', serif;
+}
+
+
+.loadingContainer {
+    background-color: #CB1AC8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .loadingImg{
+    width: 80%;
+    height: 80%
+  }
+  
+  .loadingText{
+      font-family: 'Silkscreen', cursive;
+      margin-top: 10px;
+      font-size: 18px; 
+      font-weight: bold;
+      color: #333;
+  }
+  

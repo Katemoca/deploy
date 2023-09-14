@@ -1,0 +1,15 @@
+.cardscontainer{
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius:25px;
+    -o-border-radius: 25px;
+    justify-content: center;
+}
+

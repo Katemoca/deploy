@@ -1,0 +1,74 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .buttonPrevNext {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .buttonPrevNext:hover {
+    background-color: purple;
+  }
+  
+  .cont_num_page {
+    display: flex;
+    align-items: center;
+  }
+  
+  .test {
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .test:hover {
+    background-color: pink;
+  }
+  
+
+  .currentPage {
+    background-color: purple;
+  }
+  
+
+  .notCurrentPage {
+    background-color: blue;
+  }
+
+  @media (max-width: 768px) {
+    .pagination {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 1rem;
+      margin-top: 20px;
+    }
+    
+    .buttonPrevNext {
+      margin-top: 10px;
+    }
+  }
+  
+  
