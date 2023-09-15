@@ -1,6 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import { Landing, Home, Create, DetailVideogame } from "../src/views/index";
 import About from "./components/About/About";
+import axios from "axios";
+axios.defaults.baseURL = "http://localhost:3001/";
 
 import "./App.css";
 

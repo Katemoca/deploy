@@ -15,7 +15,7 @@ import {
 //Action para traer todos los videojuegos
 export const getAllVideogames = () => {
   return async function (dispatch) {
-    const URL = "http://localhost:3001/videogames";
+    const URL = "/videogames";
     try {
       const response = await axios.get(`${URL}`);
       dispatch({
@@ -31,7 +31,7 @@ export const getAllVideogames = () => {
 //Action para traer videojuego por ID
 export const getVideogameByDetail = (id) => {
   return async function (dispatch) {
-    const URL = "http://localhost:3001/videogames";
+    const URL = "/videogames";
     try {
       const response = await axios.get(`${URL}/${id}`);
 
@@ -48,7 +48,7 @@ export const getVideogameByDetail = (id) => {
 //Action para eliminar el detail del videojuego CREADO
 export const deleteDetailVideogame = (detailId) => {
   return async function (dispatch) {
-    const URL = "http://localhost:3001/videogames";
+    const URL = "/videogames";
     try {
       await axios.delete(`${URL}/${detailId}`);
       dispatch({ type: DELETE_DETAIL_VIDEOGAME, payload: detailId });
@@ -71,7 +71,7 @@ export const resetDetailToHome = () => {
 export const postVideogame = (form) => {
   // eslint-disable-next-line no-unused-vars
   return async function (dispatch) {
-    const URL = "http://localhost:3001/videogames";
+    const URL = "/videogames";
     try {
       await axios.post(`${URL}`, form);
       alert("The videogame was created 😉");
@@ -85,7 +85,7 @@ export const postVideogame = (form) => {
 //Action para buscar por nombre => searchBar.jsx
 export const searchByName = (name) => {
   return async function (dispatch) {
-    const URL = "http://localhost:3001/videogames";
+    const URL = "/videogames";
     try {
       const response = await axios.get(`${URL}?name=${name}`);
       dispatch({
@@ -101,7 +101,7 @@ export const searchByName = (name) => {
 //Action para traer todos los géneros
 export const getAllGenres = () => {
   return async function (dispatch) {
-    const URL = "http://localhost:3001/genres";
+    const URL = "/genres";
     try {
       const response = await axios.get(`${URL}`);
       dispatch({
