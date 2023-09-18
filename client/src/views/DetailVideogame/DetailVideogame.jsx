@@ -53,7 +53,9 @@ const DetailVideogame = () => {
           <div className={styles.container_detail}>
             {detail.createdVideoGame === true ? (
               <Link to="/home">
-                <button className={styles.button_delete} onClick={handleDelete}>
+                <button
+                  className={styles.button_delete}
+                  onClick={() => handleDelete(detail.id)}>
                   DELETE GAME
                 </button>
               </Link>
