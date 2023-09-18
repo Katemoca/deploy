@@ -108,7 +108,7 @@ const NavBar = ({ paginate, videogames }) => {
             <option value="1-9">Lowest to highest</option>
           </select>
         </div>
-        <div>
+        {/* <div>
           <button
             className={styles.buttonLink}
             onClick={() => {
@@ -116,7 +116,7 @@ const NavBar = ({ paginate, videogames }) => {
             }}>
             RESET ALL
           </button>
-        </div>
+        </div> */}
       </div>
     </>
   );
