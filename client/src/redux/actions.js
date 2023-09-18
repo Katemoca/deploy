@@ -46,12 +46,12 @@ export const getVideogameByDetail = (id) => {
 };
 
 //Action para eliminar el detail del videojuego CREADO
-export const deleteDetailVideogame = (detailId) => {
+export const deleteDetailVideogame = (id) => {
   return async function (dispatch) {
     const URL = "/videogames";
     try {
-      await axios.delete(`${URL}/${detailId}`);
-      dispatch({ type: DELETE_DETAIL_VIDEOGAME, payload: detailId });
+      await axios.delete(`${URL}/${id}`);
+      dispatch({ type: DELETE_DETAIL_VIDEOGAME, payload: id });
     } catch (error) {
       console.log(error);
     }
