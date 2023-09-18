@@ -14,8 +14,8 @@ module.exports = (sequelize) => {
         allowNull: false,
         validate: {
           len: {
-            args: [2, 100],
-            msg: "The name should have between 2 to 100 characters",
+            args: [2, 15],
+            msg: "The name should have between 2 to 15 characters",
           },
         },
       },
@@ -28,7 +28,7 @@ module.exports = (sequelize) => {
         allowNull: false,
       },
       background_image: {
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT,
         allowNull: false,
       },
       released: {
