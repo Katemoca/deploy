@@ -32,9 +32,9 @@ const DetailVideogame = () => {
     };
   }, [dispatch, detailId]);
 
-  const handleDelete = (detailId) => {
+  const handleDelete = (id) => {
     console.log("Delete button clicked");
-    dispatch(deleteDetailVideogame(detailId));
+    dispatch(deleteDetailVideogame(id));
     dispatch(getAllVideogames());
   };
 
